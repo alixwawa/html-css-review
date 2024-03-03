@@ -5,6 +5,13 @@ h4,
 p,
 li {
 	font-family: sans-serif;
+	color: #444
+}
+
+h1,
+h2,
+h3 {
+	color: #1d05f3d7;
 }
 
 h1 {
@@ -48,19 +55,53 @@ li {
 } */
 
 #author {
-  font-style: italic;
-  font-size: 18px;
+	font-style: italic;
+	font-size: 18px;
 }
 
 #copyright {
-  font-size: 16px;
+	font-size: 16px;
 }
 
 .related-author {
-  font-size: 18px;
-  font-weight: bold;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 .related-post {
-  list-style: none;
+	list-style: none;
+}
+
+.main-header {
+	background-color: #d4d4d4;
+}
+
+aside {
+	background-color: #d4d4d4;
+	border-top: 5px solid #1d05f3d7;
+	border-bottom: 5px solid #1d05f3d7;
+}
+
+/* body {
+	background-color: floralwhite;
+} */
+
+/* .first-li {
+	font-weight: bold;
+} */
+
+li:first-child {
+	font-weight: bold;
+}
+
+li:last-child {
+	font-style: italic;
+}
+
+li:nth-child(even) {
+	/* color: red; */
+}
+
+article p:last-child {
+	color:red;
 }
