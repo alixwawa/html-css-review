@@ -5,7 +5,7 @@ h4,
 p,
 li {
 	font-family: sans-serif;
-	color: #444
+	color: #444;
 }
 
 h1,
@@ -102,6 +102,48 @@ li:nth-child(even) {
 	/* color: red; */
 }
 
-article p:last-child {
-	color:red;
+/* Misconception: this wont work bc p is not the first child of article */
+article p:first-child {
+	color: red;
 }
+
+/* Styling Links */
+
+a:link {
+	color: #1d05f3d7;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #1d05f3d7;
+}
+
+a:hover {
+	color: orangered;
+	font-weight: bold;
+	text-decoration: underline orange;
+}
+
+a:active {
+	background-color: black;
+	font-style: italic;
+}
+
+/* LVHA */
+
+/* Resolving Conflicts */
+/* #copyright {
+	color: red;
+}
+
+.copyright {
+	color: blue;
+}
+
+.text {
+	color: yellow;
+}
+
+footer p {
+	color: green !important;
+} */
